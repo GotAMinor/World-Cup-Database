@@ -89,3 +89,18 @@ psql --username=freecodecamp --dbname=postgres
 ./queries.sh
 ./queries.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git remote
+git remote add origin https://github.com/GotAMinor/World-Cup-Database.git
+git remote remove origin
+git remote -v
+git remote
+git remote add origin https://github.com/GotAMinor/World-Cup-Database.git
+git remote
+git remote -v
+git branch
+git branch -M main
+git branch
+git push -u origin main
+git add --all
+git commit -a -m "psql project done"
